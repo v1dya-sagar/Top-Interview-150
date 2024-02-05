@@ -1,4 +1,4 @@
-package TopInterview150;
+package TopInterview150.Hashmap;
 
 import java.util.Arrays;
 import java.util.HashMap;
