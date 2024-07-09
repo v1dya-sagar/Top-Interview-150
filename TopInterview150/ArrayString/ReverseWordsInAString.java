@@ -6,9 +6,9 @@ public class ReverseWordsInAString {
     public static void main(String[] args) {
         String givenString = " Sky   is blue ";
         String[] arrString = givenString.trim().split("\\s+");
-        String result = "";
+        StringBuilder result = new StringBuilder();
         for (int i = arrString.length - 1; i >= 0; i--){
-            result += arrString[i] + " ";
+            result.append(arrString[i]).append(" ");
         }
         System.out.println(result);
     }
